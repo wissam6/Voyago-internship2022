@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.shopcartempty .pageTitle {
+    position: absolute;
+    width: 539px;
+    height: 58px;
+    left: 830px;
+    top: 170px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Button Text */
+
+    color: #272727;
+}
+
+.shopcartempty .icon {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 810px;
+    top: 290px;
+}
+
+.shopcartempty .emptyMessage {
+
+    position: absolute;
+    width: 353px;
+    height: 29px;
+    left: 784px;
+    top: 630px;
+
+    /* H3 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height, or 131% */
+
+    text-align: center;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+}
+
+.shopcartempty .emptyCart {
+    position: absolute;
+    width: 636px;
+    height: 24px;
+    left: 642px;
+    top: 710px;
+
+    /* Default */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.shopcartempty .explore {
+    color: #4AA675;
+}

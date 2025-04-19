@@ -1,0 +1,1675 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swapproductd');
+
+.allProds body,
+html {
+    margin: auto;
+    max-width: 1920;
+}
+
+.allProds .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1070px;
+    height: 2054px;
+    left: 610px;
+    top: 198px;
+    overflow: hidden;
+}
+
+
+.allProds .contentHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1070px;
+    height: 58px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.allProds .breadCrumb {
+    position: absolute;
+    height: 32px;
+    left: 12.5%;
+    right: 75.89%;
+    top: 150px;
+
+}
+
+.allProds .sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 785px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.allProds .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 174px;
+    height: 30px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.allProds .views {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 80px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.allProds .firstview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: none;
+    /* Inside auto layout */
+    background-color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .secondview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: none;
+    /* Inside auto layout */
+    background-color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .config {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 9px;
+    gap: 8px;
+
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.allProds .dropdownButton {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1px 10px 8px;
+    gap: 7px;
+
+    width: 174px;
+    height: 30px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Inputs/Border */
+
+    border: 1px solid #898989;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/*filter*/
+
+.allProds .filters {
+    position: absolute;
+    width: 330px;
+    height: 6213px;
+    left: 240px;
+    top: 198px;
+
+    /* Backgrounds & Separators/Pane Background */
+
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+.allProds .filterTitle {
+    position: absolute;
+    width: 55px;
+    height: 28px;
+    left: 24px;
+    top: 588px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Button Text */
+
+    color: #272727;
+}
+
+.allProds .categsTitle {
+    position: absolute;
+    width: 94px;
+    height: 28px;
+    left: 24px;
+    top: 24px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Button Text */
+
+    color: #272727;
+}
+
+.allProds .allCategs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 282px;
+    height: 448px;
+    left: calc(50% - 282px/2);
+    top: 92px;
+}
+
+.allProds .categsDiv {
+    width: 282px;
+    height: 448px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .categsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: absolute;
+    height: 448px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.allProds .header1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+
+}
+
+.allProds .categoriesLinks {
+    text-decoration: none;
+}
+
+.allProds .header2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.allProds .header3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.allProds .header4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.allProds .header5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.allProds .header6 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 6;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.allProds .header7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 7;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.allProds .header8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 8;
+    align-self: stretch;
+    flex-grow: 0;
+    border: none;
+}
+
+.allProds .categsStyle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .allFilters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 282px;
+    height: 1028px;
+    left: calc(50% - 282px/2);
+    top: 656px;
+
+}
+
+.allProds .clear {
+    width: 282px;
+    height: 84px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .clearText {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .clearCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: absolute;
+    width: 282px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.allProds .clearContent {}
+
+.allProds .clearHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .discounted {
+    position: relative;
+    width: 282px;
+    height: 148px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.allProds .discCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: absolute;
+    height: 148px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.allProds .discHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .model {
+    width: 282px;
+    height: 212px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.allProds .size {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 282px;
+    height: 372px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.allProds .ratingDiv {
+    width: 282px;
+    height: 284px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.allProds .color {
+
+    width: 282px;
+    height: 140px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.allProds .priceFilter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+
+    width: 282px;
+    height: 224px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.allProds .weight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    width: 282px;
+    height: 224px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+.allProds .allCheck {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+
+    width: 38px;
+    height: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .discCheck {
+
+
+    padding: 4px 0px;
+
+    width: 178px;
+    height: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .showStyle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .checkText {
+    width: 18px;
+    height: 24px;
+    margin-left: 4px;
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .contentClear {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px 12px 0px;
+    gap: 8px;
+
+    width: 250px;
+    height: 52px;
+
+    border-radius: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .clearButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 236px;
+    top: 27px;
+    border: none;
+    background-color: white;
+}
+
+.allProds .allResTitle {
+    position: absolute;
+    width: 403px;
+    height: 58px;
+
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    letter-spacing: -0.9px;
+
+    /* Base/Black */
+
+    color: #000000;
+}
+
+
+.allProds .modelNames {
+    width: 101px;
+    height: 24px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 4px;
+}
+
+.allProds .modelCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.allProds .modelHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .modelCheckBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 128px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .modelBox {}
+
+.allProds .sizeCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.allProds .sizeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+    border-radius: 0px;
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .sizeBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 288px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .sizeInsideBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+    width: 40px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .sizeText {
+    position: absolute;
+    left: 35px;
+    width: 20px;
+    height: 24px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.allProds .sizeTitle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .ratingCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.allProds .ratingHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px 12px 0px;
+    gap: 8px;
+
+    width: 240px;
+    height: 52px;
+
+    border-radius: 0px;
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .ratingContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 180px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.allProds .ratingInside {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+
+    width: 200px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .colorCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.allProds .colorHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 240px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .colorContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 0px;
+
+    width: 60px;
+    height: 56px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.allProds .bikeColor {
+    width: 39px;
+    height: 24px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 4px;
+}
+
+.allProds .priceTitle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .priceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.allProds .priceHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+    border: none;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .priceInputs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 250px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin-top: 40px;
+}
+
+.allProds .weightHeader {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+    border: none;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.allProds .weightCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.allProds .weightInputs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 250px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin-top: 40px;
+}
+
+.allProds .weightTitle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .inputRangeStyle {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 109px;
+    height: 24px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Inputs/Border */
+
+    border: 1px solid #898989;
+}
+
+.allProds .productsFooter {
+    position: absolute;
+    top: 405em;
+}
+
+
+
+.allProds .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1070px;
+    height: 6023px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.allProds .mountainTitle {
+    width: 1070px;
+    height: 58px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.allProds .mountainBikesRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1070px;
+    height: 479px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.allProds .mountainButton {
+    position: absolute;
+    top: 44em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+
+    width: 1070px;
+    height: 42px;
+
+    /*border-radius: 4px;*/
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+    background-color: white;
+
+}
+
+.allProds .mountainLabelStyle {
+    width: 473px;
+    height: 24px;
+
+    /* Large Button - Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    /* Base/Button Text */
+
+    color: #272727;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .framesTitle {
+    width: 390px;
+    height: 58px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    letter-spacing: -0.9px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.allProds .mountainFramesRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1070px;
+    height: 525px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.allProds .framesHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1070px;
+    height: 58px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.allProds .framesButton {
+    position: absolute;
+    top: 84em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 1070px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+    background-color: white;
+    border: none;
+}
+
+.allProds .wheelsRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1070px;
+    height: 525px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+.allProds .pedalsRow {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1070px;
+    height: 525px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+.allProds .wheelsButton {
+    
+}

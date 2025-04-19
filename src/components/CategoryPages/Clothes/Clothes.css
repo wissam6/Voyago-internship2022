@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.clothes .clothesFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: relative;
+    width: 1440px;
+    height: 460px;
+    left: 240px;
+    top: 138px;
+    padding-bottom: 25em;
+
+}
+
+.clothes .displayFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1440px;
+    height: 528px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.clothes .insideFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1440px;
+    height: 528px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.clothes .titleFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 1440px;
+    height: 58px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.clothes .titleStyle {
+    width: 1440px;
+    height: 58px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.9px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.clothes .cardTitleStyle {
+    width: 668px;
+    height: 20px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #1D252C;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.clothes .imageStyle {
+    width: 700px;
+    height: 484px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.clothes .cardStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 700px;
+    height: 528px;
+    border-radius: 10px;
+    border: none;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}

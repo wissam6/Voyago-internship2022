@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.shopview1 .quantityDiv {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    left: 740px;
+    top: 40px;
+
+    /* Inputs/Border */
+
+    border: 1px solid #898989;
+    border-radius: 2px;
+}
+
+.shopview1 .removeButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 71px;
+    height: 34px;
+    left: 140px;
+    top: 98px;
+
+    border: none;
+    background-color: white;
+    color: #818181;
+}
+
+.shopview1 .priceDiv {
+    position: absolute;
+    width: 206px;
+    height: 26px;
+    left: 494px;
+    top: 15px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.shopview1 .totalDiv {
+    position: absolute;
+    width: 207px;
+    height: 26px;
+    left: 980px;
+    top: 20px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 153% */
+
+    text-align: right;
+    letter-spacing: 0.1px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.shopview2 .listView {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    width: 1194px;
+    height: 384px;
+    left: 363px;
+    top: 360px;
+
+}
+
+.shopview1 .titleDiv {
+    position: absolute;
+    width: 264px;
+    height: 37px;
+    left: 140px;
+    top: 0px;
+
+    /* H3 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    /* or 131% */
+
+    display: flex;
+    align-items: center;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.shopview1 .cardStyle {
+    width: 1194px;
+    height: 151px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer .info {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 15em;
+}
+
+.footer .categories {
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 44px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Red Hat Text';
+    display: flex;
+    flex-direction: column;
+    margin-right: 15em;
+}
+
+.footer .listStyle {
+    margin-bottom: 18px;
+    color: white
+}
+
+.footer .title {
+    color: black;
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 64px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Red Hat Text';
+}
+
+.footer .contacts {
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 29px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'Red Hat Text';
+    display: flex;
+    flex-direction: column;
+    margin-right: 15em;
+}
+
+.footer .address {
+    margin-bottom: 1em;
+}
+
+.footer .payment {
+    margin-right: 12em;
+}
+
+.footer .icon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+
+.footer .copyright {
+    position: static;
+    margin-top: 18em;
+}
+
+.footer .rights {
+    width: 141px;
+    height: 24px;
+    left: 107.2px;
+    top: 217px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}

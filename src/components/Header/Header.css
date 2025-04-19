@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.header
+.headerFavorites {
+    width: 70px;
+    height: 24px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D252C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header
+.inputSearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 634px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #898989;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.header
+.headerContacts {
+    width: 69px;
+    height: 24px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1D252C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.header
+.searchIcon {
+    position: relative;
+    margin-left: -35px;
+    z-index: 1;
+}
+.header
+.searchButton {
+    position: relative;
+    border: none;
+    background-color: white;
+}
+
+.header
+.searchButton:hover {
+    position: relative;
+    border: none;
+    background-color: white;
+}

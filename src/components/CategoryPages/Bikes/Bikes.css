@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.bikes .clothesFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: relative;
+    width: 1440px;
+    height: 450px;
+    left: 240px;
+    top: 138px;
+    padding-bottom: 25em;
+}
+
+.bikes .titleFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1440px;
+    height: 58px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bikes .titelStyle {
+    width: 1440px;
+    height: 58px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    letter-spacing: -0.9px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.bikes .displayFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1440px;
+    height: 528px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.bikes .insideFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 1440px;
+    height: 528px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+.bikes .imageStyle {
+    width: 458px;
+    height: 484px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.bikes .cardStyle {
+    border: none;
+}
+
+.bikes .cardTitleStyle {
+
+    width: 421px;
+    height: 20px;
+
+    /* H3 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    /* or 131% */
+
+    display: flex;
+    align-items: center;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}

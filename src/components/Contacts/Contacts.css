@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+body,
+html {
+    margin: auto;
+    max-width: 1920px;
+}
+
+.contacts .frame {
+    position: absolute;
+    width: 1920px;
+    height: 1681px;
+    background: #FFFFFF;
+}
+
+.contacts .Form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 946px;
+    height: 369px;
+    left: 360px;
+    top: 334px;
+}
+
+.contactsNameField .contactsInputStyle {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 946px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #898989;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.contactsEmailField .contactsInputStyle {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 946px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #898989;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.textAreaField .textAreaInput {
+    box-sizing: border-box;
+    width: 946px;
+    height: 92px;
+    background: #FFFFFF;
+    border: 1px solid #898989;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.contacts .submitButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 207px;
+    height: 48px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.contacts .submitText {
+    width: 68px;
+    height: 24px;
+
+    /* Large Button - Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    /* Base/White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contacts .buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 207px;
+    height: 48px;
+    left: 1100px;
+    top: 690px;
+}
+
+.contactsNameField .nameLabel {
+    width: 50px;
+    height: 28px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contactsEmailField .emailLabel {
+    width: 47px;
+    height: 28px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.textAreaField .textLabel {
+    width: 76px;
+    height: 28px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.contacts .locationText {
+    position: absolute;
+    width: 206px;
+    height: 336px;
+    left: 360px;
+    top: 944px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.contacts .map {
+    position: absolute;
+    left: 633px;
+    right: 487px;
+    top: 944px;
+    bottom: 401px;
+    width: 700px;
+    height: 336px;
+
+}
+
+.contacts .contactsFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 1440px;
+    height: 58px;
+    left: 740px;
+    top: 238px;
+
+    width: 1440px;
+    height: 58px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    text-align: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Black */
+
+    color: #000000;
+}
+
+.validationField .valInput {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 190px;
+    height: 48px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Inputs/Border */
+
+    border: 1px solid #898989;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.validationField .botLabel {
+    width: 160px;
+    height: 28px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.validationField .hintStyle {
+    width: 255px;
+    height: 17px;
+
+    /* Hint Text */
+
+    font-family: 'Red Hat Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    /* identical to box height, or 142% */
+
+
+    /* Base/Secondary Text */
+
+    color: #818181;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.botValidation {
+    direction: flex;
+    flex-direction: row;
+}
+
+.validationField .captchaImage {
+    position: absolute;
+    width: 190px;
+    height: 48px;
+    left: 206px;
+    top: 25.5em;
+}
+
+.validationField .refreshIcon {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 30em;
+    top: 26.5em;
+    bottom: 0%;
+}

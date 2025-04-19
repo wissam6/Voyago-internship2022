@@ -1,0 +1,392 @@
+.productListView {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 40px;
+
+    width: auto;
+    height: 312px;  
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Card - Shadow */
+
+    box-shadow: 0px 4px 24px rgba(123, 123, 123, 0.15);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productListView .productImage {
+    width: 272px;
+    height: 264px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+/*.productListView .productImageStyle {
+    position: absolute;
+    width: 272px;
+    height: 272px;
+    left: 0px;
+    top: 0px;
+}*/
+
+.productListView .productCard {
+    width: 710px;
+    height: 243px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.productListView .productTitle {
+    width: auto;
+    height: 46px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+    color: #1D252C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productListView .descStyle {
+    position: absolute;
+
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.productListView .productRatingIcon {
+    color: #4AA675;
+    width: 16px;
+    height: 16px;
+    position: relative;
+}
+
+.productListView .ratingValue {
+    width: 43px;
+    height: 28px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+}
+
+.productListView .insideCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 8px 8px 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 710px;
+    height: 233px;
+    left: calc(50% - 710px/2);
+    top: 0px;
+}
+
+.productListView .productRating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: 63px;
+    height: 28px;
+    left: 0px;
+    top: 58px;
+}
+
+.productListView .productDescription {
+    position: absolute;
+    height: 144px;
+    left: 1px;
+    right: 460px;
+    top: 109px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.productListView .productPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 116px;
+    height: 46px;
+    right: 0px;
+    top: 5px;
+}
+
+.productListView .priceStyle {
+    width: 116px;
+    height: 46px;
+
+    /* H2 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 46px;
+    /* identical to box height, or 177% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.9px;
+
+    /* Base/Primary */
+
+    color: #4AA675;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productListView .controlButtons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 260px;
+    height: 96px;
+    left: 450px;
+    top: 73px;
+}
+
+.productListView .button1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 260px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productListView .button2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 260px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Base/Button Text */
+
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productListView .heart1 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 60px;
+    color: #FFFFFF;
+}
+
+.productListView .heart2 {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 35px;
+    color: #FFFFFF;
+
+}
+
+.productListView .productCart {
+    width: 84px;
+    height: 24px;
+
+    /* Button Text - Medium */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* white */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productListView .productFav {
+    width: 152px;
+    height: 24px;
+
+    /* Button Text - Medium */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Base/Button Text */
+
+    color: #272727;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.listViewContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1070px;
+    height: 380px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.listViewContent .listViewItem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 40px;
+
+    width: auto;
+    height: auto;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Card - Shadow */
+
+    box-shadow: 0px 4px 24px rgba(123, 123, 123, 0.15);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

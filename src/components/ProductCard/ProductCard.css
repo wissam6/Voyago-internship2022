@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.productCard .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 330px;
+    height: auto;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Card - Shadow */
+
+    box-shadow: 0px 4px 24px rgba(123, 123, 123, 0.15);
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productCard .image {
+    width: 330px;
+    height: 264px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard .imageStyle {
+    width: 330px;
+    height: 244px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.productCard .price {
+    width: 109px;
+    height: 0px;
+
+    /* H2 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 46px;
+    /* identical to box height, or 177% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Primary */
+
+    color: #4AA675;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard .headerStyle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 0px;
+    width: 330px;
+    height: 101px;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    position: absolute;
+    top: 18em;
+    border: none;
+
+}
+
+.productCard .priceDiv {
+    padding: 0px 0px 0px 16px;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+.productCard .cartButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background-color: #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productCard .cartButton:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productCard .cartButton:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productCard .cartButton::selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productCard .cartButton:focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.disabled .cartButton:focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    opacity: 0.7;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productCard .favButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Base/Button Text */
+
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard .favButton:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #272727;
+    color: white;
+    /* Base/Button Text */
+
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard .favButton:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #272727;
+    color: white;
+    /* Base/Button Text */
+
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard .favButton::selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Base/Button Text */
+    color: #4AA675;
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard .buttonText {
+    width: 84px;
+    height: 24px;
+
+    /* Button Text - Medium */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Base/White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard .cart {
+    position: absolute;
+    left: 6.25%;
+    right: 12.5%;
+    top: 12.5%;
+    bottom: 18.75%;
+
+    /* Base/White */
+
+    color: #FFFFFF;
+    position: absolute;
+
+    width: 24px;
+    height: 24px;
+    left: 55px;
+    top: calc(50% - 24px/2);
+}
+
+.productCard .cardTitle {
+    width: 350px;
+    height: 29px;
+
+    /* H3 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height, or 131% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productCard .rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+    width: 63px;
+    height: 28px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    position: absolute;
+    top: 52px;
+}
+
+.productCard .rateIcon {
+    color: #4AA675;
+    width: 14px;
+    height: 14px;
+}
+
+.productCard .favIcon {
+    width: 14px;
+    height: 12px;
+}
+
+.productCard .ratingValue {
+    width: 43px;
+    height: 28px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

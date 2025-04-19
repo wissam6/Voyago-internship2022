@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.topPicksPage .topPicks {
+
+    position: relative;
+    top: -2.1em;
+    width: 1920px;
+    height: 480px;
+
+    background: rgba(74, 166, 117, 0.2);
+}
+
+.topPicksPage .topPicksText {
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.9px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 240px;
+}
+
+.topPicksPage .cards {
+    width: 1276px;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    order: 1;
+    flex-grow: 0;
+    gap: 30px;
+    margin-left: 80px;
+}
+
+.topPicksPage .image {
+    width: 296.5px;
+    height: 300px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.topPicksPage .scrollView {
+    margin-left: 240px;
+    border: none;
+}
+
+.topPicksPage .cardTitle {
+    width: 264.5px;
+    height: 20px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    display: flex;
+    align-items: flex-start;
+    color: #1D252C;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 8px;
+}

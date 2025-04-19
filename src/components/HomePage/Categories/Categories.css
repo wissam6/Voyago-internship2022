@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.categories .categoriesFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 80px;
+
+    position: relative;
+    width: 1440px;
+    height: 1207px;
+    left: 240px;
+    margin-top: 2em;
+
+}
+
+.categories .categoriesTitle {
+    position: relative;
+    width: 198px;
+    height: 58px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.9px;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.categories .categoriesDiv {
+    position: relative;
+    margin-top: -3em;
+    width: 1440px;
+    height: 528px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.categories .bikesImage {
+    width: 454px;
+    height: 200px;
+}
+
+.categories .componentsImage {
+    width: 454px;
+    height: 215px;
+}
+
+.categories .accessoriesImage {
+    width: 453px;
+    height: 484px;
+}
+
+.categories .clothesImage {
+    width: 453px;
+    height: 484px;
+}
+
+.categories .accessoriesCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 453px;
+    height: 528px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+.categories .bikesCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 454px;
+    height: 244px;
+    left: 493px;
+    top: 0px;
+
+    border-radius: 10px;
+}
+
+.categories .componentsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 454px;
+    height: 244px;
+    left: 493px;
+    top: 270px;
+
+    border-radius: 10px;
+}
+
+.categories .clothesCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 453px;
+    height: 528px;
+    left: 987px;
+    top: 0px;
+
+    border-radius: 10px;
+}
+
+.categories .recentlyViewed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    width: 1440px;
+    height: 517px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.categories .viewedTitle {
+    width: 297px;
+    height: 58px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    letter-spacing: -0.9px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.categories .blackBike {
+    width: 298px;
+    height: 29px;
+
+    /* H3 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    /* identical to box height, or 131% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.categories .price {
+    width: 116px;
+    height: 46px;
+
+    /* H2 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 46px;
+    /* identical to box height, or 177% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Primary */
+
+    color: #4AA675;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.categories .cartButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.categories .cartButton:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.categories .cartButton:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.categories .cartButton::selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.categories .cartButton:focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 8px;
+
+    width: 250px;
+    height: 40px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    opacity: 0.7;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+
+.categories .downloads {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 64px;
+
+    position: relative;
+    width: 951px;
+    height: 58px;
+    left: 420px;
+    margin-top: 10em;
+    margin-bottom: 5em;
+}
+
+.categories .downloadText {
+    width: auto;
+    height: 58px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.9px;
+    color: #272727;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.categories .viewedCards {
+    position: relative;
+    top:2.34em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+    width: 1440px;
+    height: 435px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.categories .favoritesButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Base/Button Text */
+
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.categories .favoritesButton:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #272727;
+    color: white;
+    /* Base/Button Text */
+
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.categories .favoritesButton::selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    color: #4AA675;
+    ;
+    /* Base/Button Text */
+
+    border: 1px solid #272727;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.categories .cartStyle {
+    width: 19.5px;
+    height: 16.5px;
+    color: #FFFFFF;
+}
+
+.categories .addToCart {
+    width: 84px;
+    height: 24px;
+
+    /* Button Text - Medium */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Base/White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

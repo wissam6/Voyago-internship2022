@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.html {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #FFFFFF;
+}
+
+.login .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+
+    position: absolute;
+    width: 420px;
+    height: 696px;
+    left: calc(50% - 420px/2);
+    top: calc(50% - 696px/2);
+}
+
+.loginEmailField .emailLabel {
+    position: relative;
+    width: 47px;
+    height: 28px;
+    left: 0px;
+    top: calc(50% - 28px/2);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #424242;
+}
+
+.loginPasswordField .passwordLabel {
+    position: relative;
+    width: 82px;
+    height: 28px;
+    left: 0px;
+    top: calc(50% - 28px/2);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #424242;
+}
+
+.loginInput {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 420px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #898989;
+    border-radius: 2px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.loginPasswordField .frame-58 {
+    width: 420px;
+    height: 32px;
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.login .register {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 0px;
+    width: 243px;
+    height: 24px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.login .register-message {
+    width: 174px;
+    height: 24px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #1D252C;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.login .register-link {
+    width: 63px;
+    height: 24px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4AA675;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-decoration: none;
+}
+
+.login .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    width: 420px;
+    height: 48px;
+    background: #4AA675;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+.login .button:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    width: 420px;
+    height: 48px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), #4AA675;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+.login .button:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    width: 420px;
+    height: 48px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), #4AA675;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+.login .button:focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    width: 420px;
+    height: 48px;
+    background: #4AA675;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+.login .button:disabled {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    width: 420px;
+    height: 48px;
+    background: #4AA675;
+    opacity: 0.7;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+.login .button::selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+    width: 420px;
+    height: 48px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), #4AA675;
+    border-radius: 4px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    border: none;
+}
+
+
+
+.login .buttonText {
+    width: 53px;
+    height: 24px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.loginPasswordField .forgot-password {
+    position: relative;
+    width: 127px;
+    height: 24px;
+    left: 0px;
+    top: calc(50% - 24px/2);
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4AA675;
+    text-decoration: none;
+}

@@ -1,0 +1,500 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+body,
+html {
+    margin: auto;
+    max-width: 1920;
+}
+
+
+.singleProduct .productImage {
+    position: absolute;
+    width: 453px;
+    height: 453px;
+    left: 240px;
+    top: 238px;
+}
+
+.singleProduct .productCategory {
+    position: absolute;
+    width: auto;
+    height: 58px;
+    left: 733px;
+    top: 210px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    letter-spacing: -0.9px;
+
+    /* Base/Black */
+
+    color: #000000;
+
+}
+
+.singleProduct .ratingFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    position: absolute;
+    width: auto;
+    height: 16px;
+    left: 733px;
+    top: 315px;
+}
+
+.singleProduct .ratingItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    width: auto;
+    height: 16px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.singleProduct .productName {
+    position: absolute;
+    width: 319px;
+    height: 24px;
+    left: 733px;
+    top: 361px;
+}
+
+.singleProduct .label {
+    position: absolute;
+    width: 109px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.singleProduct .value {
+    position: absolute;
+    width: 170px;
+    height: 24px;
+    left: 162px;
+    top: 0px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.singleProduct .productNo {
+    position: absolute;
+    width: 259px;
+    height: 24px;
+    left: 733px;
+    top: 401px;
+}
+
+.singleProduct .size {
+    position: absolute;
+    width: 335px;
+    height: 40px;
+    left: 733px;
+    top: 441px;
+}
+
+.singleProduct .weight {
+    position: absolute;
+    width: 258px;
+    height: 24px;
+    left: 733px;
+    top: 497px;
+}
+
+.singleProduct .color {
+    position: absolute;
+    width: 404px;
+    height: 24px;
+    left: 733px;
+    top: 537px;
+}
+
+.singleProduct .description {
+    position: absolute;
+    width: 577px;
+    height: 72px;
+    left: 733px;
+    top: 577px;
+}
+
+.singleProduct .sizeDropDown {
+    position: absolute;
+    width: 174px;
+    height: 40px;
+    left: 161px;
+    top: 0px;
+}
+
+.singleProduct .baseDropDown {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1px 10px 8px;
+    gap: 7px;
+
+    width: 174px;
+    height: 40px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Inputs/Border */
+
+    border: 1px solid #898989;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.singleProduct .radioGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 32px;
+
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 162px;
+    top: 0px;
+}
+
+.singleProduct .descText {
+    position: absolute;
+    height: 72px;
+    left: 162px;
+    right: 0px;
+    top: 0px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+}
+
+.singleProduct .actions {
+    position: absolute;
+    width: 330px;
+    height: 196px;
+    left: 1352px;
+    top: 361px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+}
+
+
+.singleProduct .productPrice {
+    width: 330px;
+    height: 58px;
+
+    /* H1 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height, or 144% */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.9px;
+
+    /* Base/Primary */
+
+    color: #4AA675;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.singleProduct .buttonStyle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 330px;
+    height: 48px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.singleProduct .buttonStyle:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 330px;
+    height: 48px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.singleProduct .buttonStyle:active {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 330px;
+    height: 48px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.16)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.singleProduct .buttonStyle::selection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 330px;
+    height: 48px;
+
+    /* Base/Primary */
+
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.24)), #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.singleProduct .buttonStyle:focus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    gap: 8px;
+
+    width: 330px;
+    height: 48px;
+
+    /* Base/Primary */
+
+    background: #4AA675;
+    border-radius: 4px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.singleProduct .buttonText {
+    width: 109px;
+    height: 24px;
+
+    /* Large Button - Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    /* Base/White */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.singleProduct .iconStyle {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    left: 18%;
+    top: 25%;
+    bottom: 18.75%;
+
+    /* Base/White */
+
+    color: #FFFFFF;
+}
+
+.singleProduct .similarProductsDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1440px;
+    height: 549px;
+    left: 240px;
+    top: 851px;
+}
+
+.singleProduct .similarProducts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    width: 1440px;
+    height: 479px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.singleProduct .similarTitle {
+    width: 187px;
+height: 46px;
+
+/* H2 */
+
+font-family: 'Red Hat Text';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 46px;
+/* identical to box height, or 177% */
+
+letter-spacing: -0.9px;
+
+/* Base/Black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.footerPos {
+    position: absolute;
+    top: 95em;
+}

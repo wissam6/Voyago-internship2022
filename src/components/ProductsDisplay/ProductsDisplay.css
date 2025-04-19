@@ -1,0 +1,1164 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+.productDisplay body,
+html {
+    margin: auto;
+    max-width: 1920;
+}
+
+.productDisplay .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1070px;
+    height: 2054px;
+    left: 610px;
+    top: 198px;
+    overflow: hidden;
+}
+
+
+.productDisplay .contentHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1070px;
+    height: 58px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*pager*/
+.productDisplay .pager {
+    position: absolute;
+    width: 1070px;
+    height: 40px;
+    left: 610px;
+    top: 2220px;
+
+}
+
+.productDisplay .breadCrumb {
+    position: absolute;
+    height: 32px;
+    left: 12.5%;
+    right: 75.89%;
+    top: 150px;
+
+}
+
+.productDisplay .sort {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    width: 785px;
+    height: 48px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+.productDisplay .dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    width: 174px;
+    height: 30px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.productDisplay .views {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 80px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.productDisplay .firstview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: none;
+    /* Inside auto layout */
+    background-color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .secondview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+
+    width: 40px;
+    height: 40px;
+
+    border-radius: 4px;
+    border: none;
+    /* Inside auto layout */
+    background-color: white;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .config {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 9px;
+    gap: 8px;
+
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.productDisplay .dropdownButton {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1px 10px 8px;
+    gap: 7px;
+
+    width: 174px;
+    height: 30px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Inputs/Border */
+
+    border: 1px solid #898989;
+    border-radius: 2px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+/*filter*/
+
+.productDisplay .filters {
+    position: absolute;
+    width: 330px;
+    height: 1974px;
+    left: 240px;
+    top: 198px;
+
+    /* Backgrounds & Separators/Pane Background */
+
+    background: #F2F2F2;
+    border-radius: 10px;
+}
+
+.productDisplay .filterTitle {
+    position: absolute;
+    width: 55px;
+    height: 28px;
+    left: 24px;
+    top: 24px;
+
+    /* H4 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 153% */
+
+    letter-spacing: 0.1px;
+
+    /* Base/Button Text */
+
+    color: #272727;
+}
+
+.productDisplay .allFilters {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 282px;
+    height: 1856px;
+    left: calc(50% - 282px/2);
+    top: 92px;
+}
+
+.productDisplay .clear {
+    width: 282px;
+    height: 84px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .clearText {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .clearCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: absolute;
+    width: 282px;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.productDisplay .clearContent {}
+
+.productDisplay .clearHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .discounted {
+    position: relative;
+    width: 282px;
+    height: 148px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.productDisplay .discCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+    position: absolute;
+    height: 148px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.productDisplay .discHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .model {
+    width: 282px;
+    height: 212px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.productDisplay .size {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 282px;
+    height: 372px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.productDisplay .ratingDiv {
+    width: 282px;
+    height: 284px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.productDisplay .color {
+
+    width: 282px;
+    height: 140px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 5;
+    flex-grow: 0;
+}
+
+.productDisplay .priceFilter {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 10px;
+
+    width: 282px;
+    height: 224px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 6;
+    flex-grow: 0;
+}
+
+.productDisplay .weight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    width: 282px;
+    height: 224px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 7;
+    flex-grow: 0;
+}
+
+.productDisplay .allCheck {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+
+    width: 38px;
+    height: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .discCheck {
+
+
+    padding: 4px 0px;
+
+    width: 178px;
+    height: 32px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .showStyle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .checkText {
+    width: 18px;
+    height: 24px;
+    margin-left: 4px;
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .contentClear {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px 12px 0px;
+    gap: 8px;
+
+    width: 250px;
+    height: 52px;
+
+    border-radius: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .clearButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 236px;
+    top: 27px;
+    z-index: 1;
+    border: none;
+    background-color: white;
+
+}
+
+
+.productDisplay .modelNames {
+    width: 101px;
+    height: 24px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 4px;
+}
+
+.productDisplay .modelCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.productDisplay .modelHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .modelCheckBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 128px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .modelBox {}
+
+.productDisplay .sizeCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.productDisplay .sizeHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+    border-radius: 0px;
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .sizeBoxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 288px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .sizeInsideBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+    width: 40px;
+    height: 32px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .sizeText {
+    position: absolute;
+    left: 35px;
+    width: 20px;
+    height: 24px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+}
+
+.productDisplay .sizeTitle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .ratingCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.productDisplay .ratingHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px 12px 0px;
+    gap: 8px;
+
+    width: 240px;
+    height: 52px;
+
+    border-radius: 0px;
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .ratingContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 180px;
+    height: 200px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.productDisplay .ratingInside {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+
+    width: 200px;
+    height: 40px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productDisplay .colorCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.productDisplay .colorHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 240px;
+    height: 52px;
+
+
+    /* Inside auto layout */
+    border: none;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .colorContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 0px;
+
+    width: 60px;
+    height: 56px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.productDisplay .bikeColor {
+    width: 39px;
+    height: 24px;
+
+    /* Base Text */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-left: 4px;
+}
+
+.productDisplay .priceTitle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .priceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.productDisplay .priceHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+    border: none;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .priceInputs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 250px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin-top: 40px;
+}
+
+.productDisplay .weightHeader {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 250px;
+    height: 52px;
+
+    border: none;
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+.productDisplay .weightCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px;
+
+
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.productDisplay .weightInputs {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    width: 250px;
+    height: 28px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+
+    margin-top: 40px;
+}
+
+.productDisplay .weightTitle {
+    width: 234px;
+    height: 28px;
+
+    /* Filter Header */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 172% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.9px;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.productDisplay .inputRangeStyle {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 109px;
+    height: 24px;
+
+    /* Base/White */
+
+    background: #FFFFFF;
+    /* Inputs/Border */
+
+    border: 1px solid #898989;
+}
+
+.productDisplay .productsFooter {
+    position: absolute;
+    top: 145em;
+}

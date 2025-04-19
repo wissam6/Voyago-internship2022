@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Voyago", "Voyago\Voyago.csproj", "{A56F3460-0D12-44CF-BC90-C6E7B3D0AB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56F3460-0D12-44CF-BC90-C6E7B3D0AB01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A56F3460-0D12-44CF-BC90-C6E7B3D0AB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A56F3460-0D12-44CF-BC90-C6E7B3D0AB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A56F3460-0D12-44CF-BC90-C6E7B3D0AB01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3851BDD7-529F-40BE-AAC0-ACADBA8AF0C2}
+	EndGlobalSection
+EndGlobal

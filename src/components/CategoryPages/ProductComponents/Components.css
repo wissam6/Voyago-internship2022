@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap');
+
+body,html {
+    margin: auto;
+    max-width: 1920px;
+}
+
+.components .componentsPage {
+    position: relative;
+    width: 1920px;
+    height: 1470px;
+    background: #FFFFFF;
+}
+
+.components .allComponents {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 1440px;
+    height: 890px;
+    left: 240px;
+    top: 238px;
+}
+
+.components .frame11 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+
+    width: 1440px;
+    height: 58px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.components .componentsTitle {
+    position: absolute;
+    top: -2em;
+    width: 1440px;
+    height: 58px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 58px;
+    text-align: justify;
+    letter-spacing: -0.9px;
+    color: #000000;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.components .aboveCards {
+    width: 1440px;
+    height: 528px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.components .chainsImage {
+    width: 457px;
+    height: 484px;
+}
+
+.components .derailleursImage {
+    width: 211px;
+    height: 200px;
+}
+
+.components .forksImage {
+    width: 211px;
+    height: 200px;
+}
+
+.components .barsImage {
+    width: 457px;
+    height: 484px;
+}
+
+.components .framesImage {
+    width: 458px;
+    height: 200px;
+}
+
+.components .chainsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 457px;
+    height: 528px;
+    left: 0.5px;
+    top: 0px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.components .derailleursCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 211px;
+    height: 244px;
+    left: 491px;
+    top: 0px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.components .forksCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 211px;
+    height: 244px;
+    left: 738px;
+    top: 0px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.components .framesCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 458px;
+    height: 244px;
+    left: 491px;
+    top: 284px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.components .barsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 457px;
+    height: 528px;
+    left: 983.5px;
+    top: 0px;
+
+    border-radius: 10px;
+    border: none;
+}
+
+.components .belowCards {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: relative;
+    width: 1440px;
+    height: 240px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.components .pedalImage {
+    width: 209px;
+    height: 196px;
+}
+
+.components .saddleImage {
+    width: 451px;
+    height: 196px;
+}
+
+.components .touringImage {
+    width: 451px;
+    height: 196px;
+}
+
+.components .wheelImage {
+    width: 209px;
+    height: 196px;
+}
+
+.components .pedalCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 209px;
+    height: 240px;
+
+    border-radius: 10px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.components .saddleCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 451px;
+    height: 240px;
+
+    border-radius: 10px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.components .touringCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 451px;
+    height: 240px;
+
+    border-radius: 10px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.components .wheelsCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 209px;
+    height: 240px;
+
+    border-radius: 10px;
+    border: none;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.components .cardTitle {
+    width: 425px;
+    height: 20px;
+
+    /* H3 */
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 29px;
+    /* or 131% */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+
+    /* Base/Base Text */
+
+    color: #1D252C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.components .breadCrumb {
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    position: absolute;
+    height: 36px;
+    left: 12.5%;
+    right: 79.32%;
+    top: 100px;
+}
+
+.components .breadCrumbTitle {
+    width: 93px;
+    height: 24px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4AA675;
+
+}
